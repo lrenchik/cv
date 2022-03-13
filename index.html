@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Luke Renchik CV</title>
+    <script>var audio = new Audio('Corridor of Time.mp3')</script>
+    <script>function playAudio() {audio.play();}</script>
+    <script>function stopAudio() {audio.pause();}</script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="win95.ico">
 </head>
 <body>
+<div>
 <table cellpadding="10">
     <tr>
-        <td><img src="luke-modified.png" alt="Luke Profile Picture"></td>
+        <td><img src="luke-modified.png" alt="Luke Profile Picture" height="200" width="200" class="headshot"></td>
         <td><h1>Luke Renchik</h1>
+
+
 <br>
 <em>Oakland Community College</em>
 <br>
@@ -19,8 +27,11 @@
 <a href="Contact Details.html"><em>Contact Details</em></a></td>
     </tr>
 </table>
-
-
+</div>
+<div class="zeal1">
+<img src="images/zeal.png" alt="CT Zeal" onmouseover="playAudio()" onmouseleave="stopAudio()" class="zeal"
+    height="200px" width="233px">
+</div>
 <br>
 <br>
 <p>My passion for technology, skill in mathematics, and interest of computer hardware have lead me to the field of
@@ -47,38 +58,14 @@ commons</a>, which was eventually greenlit in the fall of 2020.
 <hr size="3" noshade="">
 <br>
 <h3>Work Experience</h3>
-<table>
-    <thead>
-    <tr>
-        <th>
-            Dates
-        </th>
-        <th>
-            Work
-        </th>
-    </tr>
 
-    </thead>
-    <tbody>
-    <tr>
-        <td>2021</td>
-        <td>Financial Analyst</td>
-    </tr>
-    <tr>
-        <td>2021-2022</td>
-        <td>Mathnasium Tutor</td>
-    </tr>
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-</table>
 <p></p>
 <br>
 <hr size="3" noshade="">
 <h3>Hobbies</h3>
+<div>
 <ol type="i">
-    <li>Music</li>
+<li>Music</li>
     <ul><li><a href="https://open.spotify.com/playlist/6oNY4MCwnfwv4OlU21R42C?si=33a507bf69f74f34">Electronic Study Music
     </a></li>
     <li>Eventually a link to my Itunes library will go here</li></ul>
@@ -99,5 +86,6 @@ commons</a>, which was eventually greenlit in the fall of 2020.
         <li>Ann Arbor River</li></ul>
 
 </ol>
+    </div>
 </body>
 </html>
